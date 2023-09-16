@@ -80,3 +80,67 @@ nav a:last-child {
 nav a:hover {
   font-weight: 600;
 }
+main {
+  padding: 0 4%;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 36px;
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0 0 10px #bbb;
+  cursor: pointer;
+}
+.card h2 {
+  font-family: "great vibes", cursive;
+  margin: 20px auto;
+}
+.card i {
+  font-size: 2em;
+}
+.card .icons {
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+}
+.icons i:hover {
+  color: rgb(224, 65, 65);
+}
+.table {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 50px;
+}
+table {
+  width: 100%;
+  cursor: pointer;
+}
+th,
+td {
+  padding: 10px;
+}
+th {
+  background-color: rgb(224, 65, 65);
+  border-radius: 28px 0 28px 0;
+}
+tr:hover {
+  background-color: #ddd;
+}
+@media (max-width: 375px) {
+  .lang {
+    display: none;
+  }
+}
